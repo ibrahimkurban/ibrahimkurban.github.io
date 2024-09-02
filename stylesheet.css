@@ -71,19 +71,20 @@ a {
 a:focus,
 a:hover {
   color: #f09228;
+  font-weight: bold;
   text-decoration: none;
 }
 
 a.keyword {
-	color: #6D7B8D; 
+	color: #6D7B8D;
 	background: #E5E4E2;
 	padding: 4px;
 	border-radius: 4px;
 	font-size: 12pt;
 }
 
-tr.bg {
-  background-color: #ecf0f5;
+tr.background {
+  background-color: #e9eaeb;
 }
 
 body,
