@@ -66,25 +66,27 @@
 a {
   color: #1e9e3a;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:focus,
 a:hover {
   color: #f09228;
-  font-weight: bold;
   text-decoration: none;
 }
 
 a.keyword {
-	color: #6D7B8D;
-	background: #E5E4E2;
-	padding: 4px;
+	color: #1e9e3a;
+	background: #f3f0e8;
+	padding: 6px;
 	border-radius: 4px;
 	font-size: 12pt;
+  font-weight: bold;
 }
 
 tr.background {
-  background-color: #e9ebe9;
+  background-color: #ffffff;
+  height: auto;
 }
 
 body,
@@ -106,15 +108,15 @@ h2 {
   margin: 0;
   padding-left: 2.5%;
   margin-bottom: 10px;
-  font-weight: normal;
+  font-weight: bold;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 6px;
   display: inline-block;
 }
@@ -123,7 +125,7 @@ h2 {
   padding-top: 26px;
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -131,6 +133,20 @@ h2 {
 .authors {
   margin-bottom: 10px;
   display: inline-block;
+}
+
+.authors a{
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: normal;
+  color: #000000;
+}
+
+.authors strong{
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: bold;
+  color: #f09228;
 }
 
 .journal {
@@ -141,6 +157,10 @@ h2 {
 .links {
   margin-bottom: 10px;
   display: inline-block;
+}
+
+.links a{
+  font-weight: normal;
 }
 
 .description {
@@ -173,4 +193,8 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-
+.myimg {
+  max-height: 200px;
+  display: block;
+  height: auto;
+}
