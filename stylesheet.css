@@ -104,6 +104,8 @@ strong {
 
 h2 {
   margin: 0;
+  padding-left: 2.5%;
+  margin-bottom: 10px;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 28px;
