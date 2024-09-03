@@ -133,12 +133,12 @@ h2 {
 
 .journal {
   margin-bottom: 10px;
-  display: inline-block;  
+  display: inline-block;
 }
 
 .links {
   margin-bottom: 10px;
-  display: inline-block;  
+  display: inline-block;
 }
 
 .description {
@@ -169,3 +169,5 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+
