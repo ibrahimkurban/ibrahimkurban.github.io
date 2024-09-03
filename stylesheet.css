@@ -64,7 +64,7 @@
 }
 
 a {
-  color: #1772d0;
+  color: #1e9e3a;
   text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ a.keyword {
 }
 
 tr.background {
-  background-color: #e9eaeb;
+  background-color: #e9ebe9;
 }
 
 body,
@@ -143,6 +143,7 @@ h2 {
 
 .description {
   display: inline-block;
+  font-size: 0px;
 }
 
 .one {
