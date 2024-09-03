@@ -77,7 +77,7 @@
                   </p>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="images/IbrahimKurban.jpg"><img
+                  <a href="images/IbrahimKurban.jpg"><img class="myimg2"
                       style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo"
                       src="images/IbrahimKurban.jpg" class="hoverZoomLink"></a>
                 </td>
@@ -642,3 +642,19 @@
 </body>
 
 </html>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var images = [
+      "images/ismrm24a.gif",
+      "images/ismrm24b.gif",
+      "images/lcss22.PNG",
+      // Add more image URLs as needed
+    ];
+
+    var randomImage = images[Math.floor(Math.random() * images.length)];
+    document.querySelector(".myimg2").src = randomImage;
+  });
+</script>
