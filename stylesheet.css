@@ -160,7 +160,17 @@ h2 {
 }
 
 .links a{
-  font-weight: normal;
+  color: #1e9e3a;
+	background: #f3f0e8;
+	padding: 6px;
+	border-radius: 4px;
+	font-size: 12pt;
+  font-weight: bold;
+}
+
+.links a:hover{
+  color: #f09228;
+  text-decoration: none;
 }
 
 .description {
