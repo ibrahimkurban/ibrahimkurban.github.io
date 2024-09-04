@@ -82,7 +82,7 @@
                   <br>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="images/iko1.jpg" class="myimg2-large"><img class="myimg2"
+                  <a href="images/iko-large.jpg"><img class="myimg2"
                       style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%;" alt="profile photo"
                       src="images/iko1-cropped.jpg" class="hoverZoomLink"></a>
                 </td>
@@ -695,16 +695,11 @@
   document.addEventListener("DOMContentLoaded", function() {
     var images = [
       "images/iko1-cropped.jpg",
-      "images/iko2-cropped.jpg"
+      "images/iko2-cropped.jpg",
+      "images/iko3-cropped.jpg"
     ];
-
-    var large_images = [
-      "images/iko1.jpg",
-      "images/iko2.jpg"
-    ]
 
     var index = Math.floor(Math.random() * images.length);
     document.querySelector(".myimg2").src = images[index];
-    document.querySelector(".myimg2-large").href = large_images[index];
   });
 </script>
