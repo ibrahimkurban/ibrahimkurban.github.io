@@ -70,16 +70,20 @@
                     large-scale linear inverse problems.
                   </p>
                   <p style="text-align:center"> <!-- LINKS-->
-                    <a href="mailto:ozaslan@usc.edu">Email</a> &nbsp;/&nbsp;
-                    <a href="https://scholar.google.com/citations?user=YkNOs4sAAAAJ&hl=en">Google Scholar</a>
+                    <a href="mailto:ozaslan@usc.edu" target="_blank">Email</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=YkNOs4sAAAAJ&hl=en" target="_blank">Google Scholar</a>
                     &nbsp;/&nbsp;
-                    <a href="https://github.com/ibrahimkurban/">Github</a>
+                    <a href="https://github.com/ibrahimkurban/" target="_blank">Github</a>
+                    &nbsp;/&nbsp;
+                    <a href="https://www.linkedin.com/in/ikozaslan/" target="_blank">LinkedIn</a>
+                    &nbsp;/&nbsp;
+                    <a href="data/ozaslan_CV.pdf" target="_blank">CV</a>
                   </p>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="images/IbrahimKurban.jpg"><img class="myimg2"
+                  <a href="images/iko1.jpg" class="myimg2-large"><img class="myimg2"
                       style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%;" alt="profile photo"
-                      src="images/IbrahimKurban2.jpg" class="hoverZoomLink"></a>
+                      src="images/iko1-cropped.jpg" class="hoverZoomLink"></a>
                 </td>
               </tr>
             </tbody>
@@ -237,7 +241,7 @@
                 <!-- Image -->
                 <td style="padding:20px;width:25%;vertical-align:middle;text-align: center" align="center">
                   <div style="margin: 0 auto; width: 200px">
-                    <img class="myimg" src="images/lcss22.PNG" style="margin: 0 auto; width: 200px">
+                    <img class="myimg" src="images/lcss22.png" style="margin: 0 auto; width: 200px">
                   </div>
                 </td>
                 <!-- Text -->
@@ -687,11 +691,17 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var images = [
-      "images/IbrahimKurban2.jpg"
-      // Add more image URLs as needed
+      "images/iko1-cropped.jpg",
+      "images/iko2-cropped.jpg"
     ];
 
-    var randomImage = images[Math.floor(Math.random() * images.length)];
-    document.querySelector(".myimg2").src = randomImage;
+    var large_images = [
+      "images/iko1.jpg",
+      "images/iko2.jpg"
+    ]
+
+    var index = Math.floor(Math.random() * images.length);
+    document.querySelector(".myimg2").src = images[index];
+    document.querySelector(".myimg2-large").href = large_images[index];
   });
 </script>
