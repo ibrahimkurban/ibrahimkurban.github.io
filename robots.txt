@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ibrahimkurban.github.io/sitemap.xml
