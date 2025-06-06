@@ -131,7 +131,7 @@ h2 {
 }
 
 .authors {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   display: inline-block;
 }
 
@@ -152,6 +152,7 @@ h2 {
 .journal {
   margin-bottom: 10px;
   display: inline-block;
+  font-style: italic;
 }
 
 .links {
@@ -174,8 +175,10 @@ h2 {
 }
 
 .description {
+  margin-top: 5px;
   display: inline-block;
-  font-size: 0px;
+  font-size: 13px;
+  color: #6d6c6b;
 }
 
 .one {
@@ -204,7 +207,7 @@ span.highlight {
 }
 
 .myimg {
-  max-height: 200px;
+  max-height: 300px;
   display: block;
   height: auto;
 }
