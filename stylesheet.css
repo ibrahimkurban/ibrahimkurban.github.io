@@ -84,6 +84,11 @@ a.keyword {
   font-weight: bold;
 }
 
+a.keyword:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
 tr.background {
   background-color: #ffffff;
   height: auto;
